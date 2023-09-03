@@ -5,19 +5,19 @@ description = ""
 authors = ["Breno Fernandes <breno.de.jesus.fernandes@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "end_to_end_student_exam_performance"}]
+packages = [{ include = "end_to_end_student_exam_performance" }]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 pandas = "2.0.0"
 loguru = "0.6.*"
 
-
 [tool.poetry.group.dev.dependencies]
 pytest = "7.2.*"
 blue = "0.9.*"
 isort = "5.10.*"
 mypy = "0.991"
+pylint = "^2.17.5"
 pytest-cov = "4.0.*"
 
 
