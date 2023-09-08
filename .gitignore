@@ -163,3 +163,5 @@ poetry.lock
 
 # vscode configs
 .vscode/
+
+artifacts/
