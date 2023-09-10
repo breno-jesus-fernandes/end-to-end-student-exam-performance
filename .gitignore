@@ -165,3 +165,4 @@ poetry.lock
 .vscode/
 
 artifacts/
+catboost_info/
